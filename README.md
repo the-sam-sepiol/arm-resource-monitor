@@ -13,7 +13,7 @@ A unified **Makefile** is provided to build both components using plain GCC. Add
 ## Features
 
 - **RAM Monitoring:**  
-  The kernel module retrieves memory usage data using `si_meminfo()` and makes it available at `/proc/ram_monitor`.
+  The kernel module retrieves memory usage data.
 
 - **CPU Monitoring:**  
   The user-space program parses `/proc/stat` to calculate individual core usage, average usage, maximum core usage, and displays the system load average from `/proc/loadavg`.
